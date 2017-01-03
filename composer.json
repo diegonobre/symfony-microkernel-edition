@@ -1,0 +1,16 @@
+{
+    "name": "diegonobre/symfony-microkernel",
+    "license": "MIT",
+    "type": "project",
+    "description": "Symfony MicroKernel",
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "^3.2",
+        "sensio/framework-extra-bundle": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}

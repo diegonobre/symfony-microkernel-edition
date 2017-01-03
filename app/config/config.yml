@@ -1,0 +1,6 @@
+framework:
+    secret: MY_SECRET_SECRET
+    templating:
+        engines: ['twig']
+    profiler: { only_exceptions: false }
+
